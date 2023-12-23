@@ -4,15 +4,12 @@
     padding: 0;
 }
 
-body {
-    font-size: 14px;
-}
-
 h1, h2 {
     font-family: 'Fraunces', serif;
 }
 
 p, a {
+    font-size: 0.875rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: hsl(228, 12%, 48%);
@@ -142,7 +139,8 @@ p, a {
 
     .card {
         width: 90%;
-        height: 93svh;
+        max-width: 370px;
+        height: 650px;
         grid-template-rows: 40% 1fr;
     }
 
